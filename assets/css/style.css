@@ -1,0 +1,94 @@
+html,
+body {
+    margin: 0;
+    padding: 0;   
+    background-color:thistle; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:pink;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header .left h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.left {    
+    align-items: center;
+    font-family:monospace;
+    font-size: large;
+
+}
+
+.right nav ul {
+    display: flex;    
+    list-style: none;
+    justify-content: flex-end; 
+}
+
+
+.left nav ul li a {
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;    
+    /* identical to box height, or 171% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* second-text-color */
+    color: #737373;
+    margin: auto 10px;
+}
+.right a {
+    text-decoration: none;
+    margin-right: 45px;
+}
+.main{    
+    text-align: center;
+    font-size: smaller;
+}
+.satu{
+    text-align: center;
+    font-family:cursive;    
+    font-size:large;
+}
+.dua{
+    text-align:center ;
+}
+.container .gambar{            
+    margin: 3% 40% ;
+}
+
+.button .btn-left{
+    padding: 10px 20px;  
+    padding: auto; 
+    margin-right: 10px;
+
+}
+.button .btn-right{
+    padding: 10px 20px;  
+    padding: auto;
+}
+
+.container .button {        
+    margin-right: 25%;
+    margin-left: 25%;        
+    margin-top: 10%;    
+}
